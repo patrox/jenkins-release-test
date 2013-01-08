@@ -3,7 +3,7 @@
 
   <groupId>com.rtr.sandbox</groupId>
   <artifactId>jenkins-release-test</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
 
   <name>jenkins-release-test</name>
