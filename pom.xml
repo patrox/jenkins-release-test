@@ -39,8 +39,8 @@
   </build>
   
   <scm>
-	<connection>scm:git:https://github.com/aikidojohn/jenkins-test.git</connection>
-	<url>scm:git:https://github.com/aikidojohn/jenkins-test.git</url>
+	<connection>scm:git:git@github.com:aikidojohn/jenkins-release-test.git</connection>
+	<url>scm:git:git@github.com:aikidojohn/jenkins-release-test.git</url>
 </scm>
 <distributionManagement>
 	<!-- Publish the versioned releases here -->
