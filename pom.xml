@@ -22,4 +22,44 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+    <build>
+  	<plugins>
+  		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-release-plugin</artifactId>
+			<version>2.2.2</version>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-dependency-plugin</artifactId>
+			<version>2.4</version>
+		</plugin>
+  	</plugins>
+  </build>
+  
+  <scm>
+	<connection>scm:git:https://github.com/aikidojohn/jenkins-test.git</connection>
+	<url>scm:git:https://github.com/aikidojohn/jenkins-test.git</url>
+</scm>
+<distributionManagement>
+	<!-- Publish the versioned releases here -->
+	<repository>
+		<id>rtr-nexus</id>
+		<name>rtr-nexus</name>
+		<url>http://devtools.renttherunway.it:8081/nexus/content/repositories/releases</url>
+	</repository>
+	<snapshotRepository>
+		<id>rtr-nexus</id>
+		<name>rtr-nexus</name>
+		<url>http://devtools.renttherunway.it:8081/nexus/content/repositories/snapshots/</url>
+	</snapshotRepository>
+</distributionManagement>
+<repositories>
+	<repository>
+		<id>rtr-nexus</id>
+		<name>Nexus Distribution</name>
+		<url>http://devtools.renttherunway.it:8081/nexus/content/repositories/releases/</url>
+	</repository>
+</repositories>
 </project>
