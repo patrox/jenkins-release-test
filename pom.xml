@@ -30,6 +30,7 @@
 			<version>2.2.2</version>
 			<configuration>
 				<branchName>release-${project.version}</branchName>
+				<updateBranchVersions>true</updateBranchVersions>
 			</configuration>
 		</plugin>
 		<plugin>
