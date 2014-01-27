@@ -42,28 +42,25 @@
   </build>
   
   <scm>
-	<connection>scm:git:git@github.com:aikidojohn/jenkins-release-test.git</connection>
-	<developerConnection>scm:git:git@github.com:aikidojohn/jenkins-release-test.git</developerConnection>
-	<url>scm:git:git@github.com:aikidojohn/jenkins-release-test.git</url>
+	<connection>scm:git:git@github.com:patrox/jenkins-release-test.git</connection>
+	<developerConnection>scm:git:git@github.com:patrox/jenkins-release-test.git</developerConnection>
+	<url>scm:git:git@github.com:patrox/jenkins-release-test.git</url>
 </scm>
 <distributionManagement>
 	<!-- Publish the versioned releases here -->
 	<repository>
-		<id>rtr-nexus</id>
-		<name>rtr-nexus</name>
-		<url>http://devtools.renttherunway.it:8081/nexus/content/repositories/releases</url>
+		<id>releases</id>
+		<url>http://localhost:8081/nexus/content/repositories/releases</url>
 	</repository>
 	<snapshotRepository>
-		<id>rtr-nexus</id>
-		<name>rtr-nexus</name>
-		<url>http://devtools.renttherunway.it:8081/nexus/content/repositories/snapshots/</url>
+	    <id>snapshots</id>
+		<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 	</snapshotRepository>
 </distributionManagement>
 <repositories>
 	<repository>
-		<id>rtr-nexus</id>
-		<name>Nexus Distribution</name>
-		<url>http://devtools.renttherunway.it:8081/nexus/content/repositories/releases/</url>
+		<id>releases</id>
+		<url>http://localhost:8081/nexus/content/repositories/releases</url>
 	</repository>
 </repositories>
 </project>
