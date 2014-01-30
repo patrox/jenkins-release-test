@@ -3,7 +3,7 @@
 
     <groupId>com.rtr.sandbox</groupId>
     <artifactId>jenkins-release-test</artifactId>
-    <version>4.7.3-SNAPSHOT</version>
+    <version>4.7.3</version>
     <packaging>jar</packaging>
 
     <name>jenkins-release-test</name>
@@ -63,7 +63,7 @@
         <connection>scm:git:git@github.com:patrox/jenkins-release-test.git</connection>
         <developerConnection>scm:git:git@github.com:patrox/jenkins-release-test.git</developerConnection>
         <url>scm:git:git@github.com:patrox/jenkins-release-test.git</url>
-      <tag>jenkins-release-test-4.7.2</tag>
+      <tag>jenkins-release-test-4.7.3</tag>
   </scm>
     
     <distributionManagement>
