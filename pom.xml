@@ -63,7 +63,7 @@
         <connection>scm:git:git@github.com:patrox/jenkins-release-test.git</connection>
         <developerConnection>scm:git:git@github.com:patrox/jenkins-release-test.git</developerConnection>
         <url>scm:git:git@github.com:patrox/jenkins-release-test.git</url>
-      <tag>HEAD</tag>
+      <tag>jenkins-release-test-4.7.2</tag>
   </scm>
     
     <distributionManagement>
